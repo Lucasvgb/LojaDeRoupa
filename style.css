@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #e9e1e1;
+  padding: 25px;
+}
+
+.menu-iten{
+  display: inline;
+  margin-right: 85px; 
+}
+.login-search{
+  display: rigth;
+  margin-right: 85px; 
+  padding-left: 100px;
+}
+.texto-entrada{
+  color: black;
+  padding-left: 100px;
+  letter-spacing: -1px;
+  line-height: 20px; /* Esse atributo diminiu o espaço entre as frases */
+
+}
