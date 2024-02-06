@@ -8,19 +8,41 @@ header {
   padding: 25px;
 }
 
-.menu-iten{
-  display: inline;
-  margin-right: 85px; 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.login-search{
-  display: rigth;
-  margin-right: 85px; 
-  padding-left: 100px;
+.menu-left {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-.texto-entrada{
-  color: black;
-  padding-left: 100px;
-  letter-spacing: -1px;
-  line-height: 20px; /* Esse atributo diminiu o espaço entre as frases */
 
+.menu-left li {
+  margin-right: 20px; 
+}
+
+.menu-right {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-right li {
+  margin-left: 20px; 
+}
+
+.texto-entrada{
+  line-height: 13.5px;
+  letter-spacing: 1px;
+  margin-left: 100px;
+}
+
+.texto-auxiliar{
+  margin-left: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
 }
